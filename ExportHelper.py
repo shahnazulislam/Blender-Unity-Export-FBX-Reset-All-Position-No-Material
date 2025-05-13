@@ -50,7 +50,7 @@ for obj in bpy.context.selected_objects:
     temp_objects.append(obj_copy)
 
     # Путь к файлу FBX ===
-    export_path = os.path.join(export_folder, f"{obj.name}_centered.fbx")
+    export_path = os.path.join(export_folder, f"{obj.name}.fbx")
 
     # Самая мякотка!
     # Экспорт ===
